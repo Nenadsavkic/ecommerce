@@ -57,4 +57,7 @@ Route::post('/remove-from-cart/{id}',[CartController::class, 'removeFromCart'])
 Route::post('/edit-product-quantity/{id}',[CartController::class, 'edit_product_quantity'])
 ->name('editProductQuantity');
 
+Route::get('/checkout', [CartController::class, 'checkout'])->name('checkout');
+
+
 

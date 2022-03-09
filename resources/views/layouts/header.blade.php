@@ -76,6 +76,9 @@
             <li class="nav-item <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
               <a class="nav-link" href="{{ route('contact') }}?contact={{ "active" }}">Contact Us</a>
             </li>
+            <li class="nav-item mt-2 mb-2 <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
+              <a class="fa fa-shopping-cart" href="{{ route('cart') }}?cart={{ "active" }}"></a>
+            </li>
     
            </ul>
         </div>
