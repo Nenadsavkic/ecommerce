@@ -1,6 +1,6 @@
 # Ecommerce Fashion Shop
 
-<p>This is my first Laravel ecommerce project, with integrated PayPal payment.</p>
+<p>This is my first Laravel ecommerce project, with integrated PayPal payment system.</p>
 
 ## Installation
 
@@ -13,7 +13,7 @@
 
    ### Switch to the repository cloned folder
 
-   <p> example path:  PS C:\Users> cd mysite  </p>
+   <p> example path:  PS C:\Users> cd ecommerce  </p>
 
 ### Install all the dependencies using composer
 
@@ -33,7 +33,7 @@
    php artisan key:generate
    ```
 
-### Create database 'mysite' in your local server (xamp), then run migration
+### Create database 'ecommerce' in your local server (xamp), then run migration
 ### Check the database connection in .env before migrating
 
    ```bash
