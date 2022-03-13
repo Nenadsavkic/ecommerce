@@ -77,18 +77,22 @@
         </table>
     </div>
     
-@if (Session::has('total_price') && Session::get('total_price') != null)
     
     <div class="checkout-container">
-      
-        <form action="{{ route('checkout') }}" method="GET"> 
-            <input type="submit"  name="checkout" class="btn checkout-btn" value="Checkout">
-        </form>	
+        @if (Session::has('total_price'))
+          @if (Session::get('total_price') != null)
 
+            <form action="{{ route('checkout') }}" method="GET"> 
+                <input type="submit"  name="checkout" class="btn checkout-btn" value="Checkout">
+            </form>	
+
+          @endif
+
+
+        @endif
       
     
     </div>
-@endif
 
 
 

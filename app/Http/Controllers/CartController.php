@@ -172,6 +172,8 @@ class CartController extends Controller
                 $request->session()->put('cart', $cart);
 
                 $this->calculateTotalCart($request);
+                
+            
             }
 
         }
