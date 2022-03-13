@@ -9,7 +9,7 @@
 
 ### Clone the repository 
 
-   <p> git clone https://github.com/Nenadsavkic/mysite.git </p>
+   <p> git clone https://github.com/Nenadsavkic/ecommerce.git </p>
 
    ### Switch to the repository cloned folder
 
