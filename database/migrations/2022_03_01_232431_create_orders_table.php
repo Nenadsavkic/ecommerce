@@ -20,7 +20,7 @@ class CreateOrdersTable extends Migration
             $table->string('email');       // User email
             $table->string('status');      // Is order paid or not
             $table->string('city');        // User city
-            $table->string('adress');      // User adress
+            $table->string('address');      // User adress
             $table->string('phone');       // User phone
             $table->date('date');          // date of order
             $table->timestamps();
