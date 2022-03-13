@@ -1,6 +1,6 @@
-# My site
+# Ecommerce Fashion Shop
 
-<p>This is my first Laravel project which have purpose to present me and my knowledge in a field of programing (junior level).</p>
+<p>This is my first Laravel ecommerce project, with integrated PayPal payment.</p>
 
 ## Installation
 
