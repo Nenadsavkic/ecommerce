@@ -39,11 +39,14 @@
                             dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
                         </p>
                         <br>
-                        <p>
-                            <a rel="nofolow" href="https://www.tooplate.com/view/2114-pixie">Pixie HTML template</a>
-                            can be converted into your desired CMS theme. You can use this Bootstrap v4.1.3 layout for 
-                            any online shop.Please tell your friends about <a rel="nofolow" href="https://facebook.com/tooplate">Tooplate</a>.
-                        Thank you.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
+                             Doloremque, recusandae omnis eius, beatae non unde ab, voluptate amet eum dicta earum quasi 
+                             praesentium nihil?
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
+                             Doloremque, recusandae omnis eius, beatae non unde ab, voluptate amet eum dicta earum quasi 
+                             praesentium nihil?
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
+                        </p>
 
                      </div>
                    </div>
