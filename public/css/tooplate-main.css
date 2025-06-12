@@ -66,7 +66,7 @@ a {
 
 /* Pre Header Style */
 #pre-header {
-	background-color: #3a8bcd;
+	background-color: #201d1e;
 	text-align: center;
 }
 #pre-header span {
@@ -112,12 +112,23 @@ a {
 }
 .navbar-dark .navbar-nav .nav-item {
 	margin: 0px 15px;
+	color:#201d1e;
+	
 }
+.navbar-dark .navbar-nav .nav-item:hover {
+	margin: 0px 15px;
+	color:#e69618;
+	
+}
+a.fa.fa-shopping-cart:hover {
+   color: #e69618;
+}
+
 .navbar-dark .navbar-nav .nav-link {
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 700;
-	color: #1e1e1e;
+	color: #201d1e;
 	transition: all 0.5s;
 }
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -125,8 +136,9 @@ a {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-	color: #3a8bcd;
+	color: #e69618;
 }
+
 .navbar:after {
 	width: 100%;
 	height: 1px;
@@ -138,6 +150,12 @@ a {
 }
 .navbar-dark .navbar-toggler-icon {
 	background-image: none;
+}
+.fa-shopping-cart{
+	color:#201d1e;
+}
+.fa-shopping-cart a:hover{
+	color:#201d1e;
 }
 .navbar-dark .navbar-toggler {
 	border-color: #3a8bcd;
@@ -990,4 +1008,40 @@ svg{
 }
 
   /* End Checkout */
+
+.logo-container{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.logo-ceo{
+    /* margin-top: 0px !important; */
+    padding-top: 20px !important;
+}
+div.line-dec{
+	background-color: #201d1e !important;
+}
+.form-button{
+	background-color: #201d1e;
+	border-color:#e69618 ;
+}
+.form-button:hover{
+	background-color: #e69618;
+	border-color: #201d1e;
+}
+.font{
+	color: #201d1e;
+}
+.fullsize{
+    
+    z-index: 999;
+    cursor: zoom-out;
+    display: block;
+    width:900px !important;
+
+    min-height:450px !important;
+    position: fixed;
+     left: 250px;
+     top: 0px;
+
+  }
   

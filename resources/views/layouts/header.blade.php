@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
     <title>@yield('title')</title>
-    <link rel="icon" href="{{ asset('/images/logo/logo.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('/images/logo/logo-img.png') }}" type="image/x-icon">
 
 
 
@@ -39,12 +39,12 @@
 
   <body> 
     
-    <!-- Pre Header -->
-    <div id="pre-header">
-      <div class="container">
+    <!-- Pre Header --> 
+    <div id="pre-header" class="pre-header">
+      <div class="container pre-header">
         <div class="row">
           <div class="col-md-12">
-            <span>Suspendisse laoreet magna vel diam lobortis imperdiet</span>
+            <span>Welcome to Our Professional Headshot Retouching Service</span>
           </div>
         </div>
       </div>
@@ -52,36 +52,37 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top logo-container">
       <div class="container">
-        <a href="/"><img src="{{ asset('/images/logo/logo.png') }}"
-          class="img-fluid rounded" style="width: 100px"></a>
-        <a class="navbar-brand" href="/">Fashion Shop</a>
+        <!-- <a href="/"><img src="{{ asset('/images/logo/logo-img.png') }}"
+          class="img-fluid rounded" style="width: 100px"></a> -->
+        <a class="navbar-brand img-fluid logo-ceo" href="/"><img src="{{asset('/images/logo/logo-ceo.png')}}" width="350px" id="logo-ceo" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-home"></span>
     </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item <?php if(isset(request()->home)){echo "active";}else{echo "";}?>">
-              <a  href="{{ route('home') }}?home={{ "active" }}" class="nav-link">Home
+        <div class="collapse navbar-collapse mt-100px" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto mt-auto">
+            <li class="text-center nav-item <?php if(isset(request()->home)){echo "active";}else{echo "";}?>">
+              <a   href="{{ route('home') }}?home={{ "active" }}" class="nav-link">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item <?php if(isset(request()->products)){echo "active";}else{echo "";}?>">
-              <a href="{{ route('products') }}?products={{ "active" }}" class="nav-link ">Products</a>
+            <li class="text-center  nav-item <?php if(isset(request()->products)){echo "active";}else{echo "";}?>">
+              <a  href="{{ route('products') }}?products={{ "active" }}" class="nav-link ">Products</a>
             </li>
-            <li class="nav-item <?php if(isset(request()->about)){echo "active";}else{echo "";}?>">
-              <a class="nav-link" href="{{ route('about') }}?about={{ "active" }}">About Us</a>
+            <li class="text-center nav-item <?php if(isset(request()->about)){echo "active";}else{echo "";}?>">
+              <a class="nav-link" href="{{ route('about') }}?about={{ "active" }}">Galery</a>
             </li>
-            <li class="nav-item <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
+            <li class="text-center nav-item <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
               <a class="nav-link" href="{{ route('contact') }}?contact={{ "active" }}">Contact Us</a>
             </li>
-            <li class="nav-item mt-2 mb-2 <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
-              <a class="fa fa-shopping-cart" href="{{ route('cart') }}?cart={{ "active" }}"></a>
+            <li class="text-center nav-item mt-2 mb-2 <?php if(isset(request()->cart)){echo "active";}else{echo "";}?>">
+              <a class="fa show fa-shopping-cart" href="{{ route('cart') }}?cart={{ "active" }}"></a>
             </li>
     
            </ul>
         </div>
       </div>
     </nav>
+    
 

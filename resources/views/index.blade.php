@@ -9,7 +9,7 @@
 @section('content')
      <!-- Page Content -->
     <!-- Banner Starts Here -->
-    <div class="banner text-center">
+    <div class="banner text-center pt-100px">
         <div class="container">
           <div class="row">
             <div class="col-md-12">

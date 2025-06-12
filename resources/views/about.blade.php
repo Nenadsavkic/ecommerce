@@ -1,60 +1,49 @@
 @extends('layouts.main')
 
 @section('title')
-    About Us
+    Galery
 @endsection
 
 @section('content')
     
-   <div class="container">
-       <div class="row">
-           <div class="col-12">
-               <div class="section-heading">
-                   <div class="line-dec"></div>
-                   <h1>About Us</h1>
-                   <div class="row">
-                    <div class="col-md-6">
-                        <img src="{{ asset('/images/about-us.jpg') }}" class="img-fluid">
-                     </div>
-                     <div class="col-md-6">
-                         <h4>Something about Us</h4>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                         dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                         dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                         dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                        </p>
-                        <br>
-                        <p>Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                            dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                            dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Vero ullam suscipit esse fugit repudiandae expedita dicta tempora,
-                            dolor soluta magnam facere nihil itaque doloribus quae vel. Aperiam alias illo reprehenderit!
-                        </p>
-                        <br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
-                             Doloremque, recusandae omnis eius, beatae non unde ab, voluptate amet eum dicta earum quasi 
-                             praesentium nihil?
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
-                             Doloremque, recusandae omnis eius, beatae non unde ab, voluptate amet eum dicta earum quasi 
-                             praesentium nihil?
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque fugit tempora praesentium unde.
-                        </p>
+   <div class="container mb-5">
 
-                     </div>
-                   </div>
-                   
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="text-center bold mt-5"><strong>Welcome to my gallery</strong></h2>
+                <p class="text-center mt-5 font mb-5"><strong>
+                Hello, on this page you can see some of my Graphic Design works
+                    in Adobe Illustrator, InDesign and Photoshop. My narrow specialty is editing and retouching
+                    images in Photoshop.<br><br>
+                    <span id="zoom">Click on image to zoom in</span>
+                    </strong></p>
+            </div>
 
-               </div>
-           </div>
-       </div>
-   </div>
+        </div>
+        <div class="row">
+
+            @foreach(File::glob(public_path('images/design_images').'/*') as $path)
+                <div class="col-sm-6 col-lg-4 col-xl-3 mt-3">
+                <img src="{{ str_replace(public_path(), '', $path) }}"
+                class="img-fluid thumb small-img" style="width: 100%"
+                    onclick="change(this)">
+                </div>
+
+            @endforeach
+
+        </div>
+
+</div>
+
+@endsection
+@section('page-scripts')
+
+   <script>
+
+   function change(element){
+    element.classList.toggle("fullsize");
+   }
+
+   </script>
 
 @endsection

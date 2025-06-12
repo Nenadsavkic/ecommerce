@@ -79,7 +79,7 @@
     }
   </script>
 
-
+   @yield('page-scripts')
 </body>
 
 </html>
