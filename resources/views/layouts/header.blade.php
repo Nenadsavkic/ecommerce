@@ -44,7 +44,7 @@
       <div class="container pre-header">
         <div class="row">
           <div class="col-md-12">
-            <span>Welcome to Our Professional Headshot Retouching Service</span>
+            <span>Welcome to professional Headshot retouching service</span>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-home"></span>
     </button>
-        <div class="collapse navbar-collapse mt-100px" id="navbarResponsive">
+        <div class="container  collapse navbar-collapse mt-100px justify-content-center" id="navbarResponsive">
           <ul class="navbar-nav ml-auto mt-auto">
             <li class="text-center nav-item <?php if(isset(request()->home)){echo "active";}else{echo "";}?>">
               <a   href="{{ route('home') }}?home={{ "active" }}" class="nav-link">Home
@@ -68,10 +68,13 @@
               </a>
             </li>
             <li class="text-center  nav-item <?php if(isset(request()->products)){echo "active";}else{echo "";}?>">
-              <a  href="{{ route('products') }}?products={{ "active" }}" class="nav-link ">Products</a>
+              <a  href="{{ route('products') }}?products={{ "active" }}" class="nav-link ">Backgrounds</a>
             </li>
-            <li class="text-center nav-item <?php if(isset(request()->about)){echo "active";}else{echo "";}?>">
-              <a class="nav-link" href="{{ route('about') }}?about={{ "active" }}">Galery</a>
+             <li class="text-center  nav-item <?php if(isset(request()->dashboard)){echo "active";}else{echo "";}?>">
+              <a  href="{{ route('dashboard') }}?dashboard={{ "active" }}" class="nav-link ">My Dashboard</a>
+            </li>
+            <li class="text-center nav-item <?php if(isset(request()->gallery)){echo "active";}else{echo "";}?>">
+              <a class="nav-link" href="{{ route('gallery') }}?gallery={{ "active" }}">Gallery</a>
             </li>
             <li class="text-center nav-item <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
               <a class="nav-link" href="{{ route('contact') }}?contact={{ "active" }}">Contact Us</a>

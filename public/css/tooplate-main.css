@@ -1044,4 +1044,10 @@ div.line-dec{
      top: 0px;
 
   }
-  
+  .userImg img{
+      align-self: center;
+	  margin-left: 20px;
+  }
+  .containerDashboard{
+	background-color: #201d1e !important; 
+  }

@@ -5,6 +5,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,8 +27,8 @@ Route::get('/single-product', [ProjectController::class, 'singleProduct'])
 ->name('singleProduct');
 
 
-Route::get('/about-us', [ProjectController::class, 'about'])
-->name('about');
+Route::get('/gallery', [ProjectController::class, 'gallery'])
+->name('gallery');
 Route::get('/contact-us', [ProjectController::class, 'contact'])
 ->name('contact');
 
@@ -74,4 +75,8 @@ Route::get('/complete_payment', [OrderController::class, 'completePayment'])
 
 Route::get('/thank_you', [OrderController::class, 'thankYou'])
 ->name('thankYou');
+
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])
+->name('dashboard');
+
 

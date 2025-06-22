@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Products
+    Backgrounds
 @endsection
 
 @section('content')

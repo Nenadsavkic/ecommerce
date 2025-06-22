@@ -18,9 +18,9 @@ class ProjectController extends Controller
         return view('index', compact('products', 'women_products', 'men_products'));
     }
 
-    public function about()
+    public function gallery()
     {
-        return  view('about');
+        return  view('gallery');
     }
     public function contact()
     {
