@@ -1,16 +1,15 @@
 @extends('layouts.main')
 
 @section('title')
-    Galery
+    Backgrounds
 @endsection
 
 @section('content')
-    
-   <div class="container mb-5">
+  <div class="container mb-5">
 
         <div class="row">
             <div class="col-md-8 offset-md-2 mt-5">
-                <h2 class="text-center bold mt-5"><strong>Welcome to my gallery</strong></h2>
+                <h2 class="text-center bold mt-5"><strong>Backgrounds</strong></h2>
                 <p class="text-center mt-5 font mb-5"><strong>
                 Hello, on this page you can see some of my Graphic Design works
                     in Adobe Illustrator, InDesign and Photoshop. My narrow specialty is editing and retouching
@@ -22,7 +21,7 @@
         </div>
         <div class="row">
 
-            @foreach(File::glob(public_path('images/design_images').'/*') as $path)
+            @foreach(File::glob(public_path('images/backgrounds').'/*') as $path)
                 <div class="col-sm-6 col-lg-4 col-xl-3 mt-3">
                 <img src="{{ str_replace(public_path(), '', $path) }}"
                 class="img-fluid thumb small-img" style="width: 100%"
@@ -45,5 +44,5 @@
    }
 
    </script>
-
+  
 @endsection

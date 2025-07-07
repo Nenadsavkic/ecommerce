@@ -1051,3 +1051,18 @@ div.line-dec{
   .containerDashboard{
 	background-color: #201d1e !important; 
   }
+  .carousel-text{
+	color: #e69618;
+	text-shadow: 
+  -2px -1px 0 #201d1e,  /* gore-levo */
+   2px -1px 0 #201d1e,  /* gore-desno */
+  -2px  1px 0 #201d1e,  /* dole-levo */
+   2px  1px 0 #201d1e;  /* dole-desno */
+  }
+.focused-text{
+	color: #fff;
+}
+/* .img-focus{
+	background-color: #fff;
+	transition: 22ms;
+} */

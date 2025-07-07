@@ -20,8 +20,8 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', [ProjectController::class, 'index'])->name('home');
 
-Route::get('/products', [ProjectController::class, 'products'])
-->name('products');
+// Route::get('/products', [ProjectController::class, 'products'])
+// ->name('products');
 
 Route::get('/single-product', [ProjectController::class, 'singleProduct'])
 ->name('singleProduct');
@@ -78,5 +78,8 @@ Route::get('/thank_you', [OrderController::class, 'thankYou'])
 
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])
 ->name('dashboard');
+
+Route::get('/backgrounds', [ProjectController::class, 'backgrounds'])
+->name('backgrounds');
 
 

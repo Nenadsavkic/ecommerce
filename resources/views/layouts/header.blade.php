@@ -53,13 +53,16 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top logo-container">
-      <div class="container">
+      <div class="container-fluid">
         <!-- <a href="/"><img src="{{ asset('/images/logo/logo-img.png') }}"
           class="img-fluid rounded" style="width: 100px"></a> -->
-        <a class="navbar-brand img-fluid logo-ceo" href="/"><img src="{{asset('/images/logo/logo-ceo.png')}}" width="350px" id="logo-ceo" alt=""></a>
+          
+        <a class="navbar-brand img-fluid logo-ceo col-4" href="/">
+          <img src="{{asset('/images/logo/logo-ceo.png')}}" width="350px" id="logo-ceo" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fa fa-home"></span>
-    </button>
+           <span class="fa fa-home"></span>
+        </button>
         <div class="container  collapse navbar-collapse mt-100px justify-content-center" id="navbarResponsive">
           <ul class="navbar-nav ml-auto mt-auto">
             <li class="text-center nav-item <?php if(isset(request()->home)){echo "active";}else{echo "";}?>">
@@ -67,8 +70,8 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="text-center  nav-item <?php if(isset(request()->products)){echo "active";}else{echo "";}?>">
-              <a  href="{{ route('products') }}?products={{ "active" }}" class="nav-link ">Backgrounds</a>
+            <li class="text-center  nav-item <?php if(isset(request()->backgrounds)){echo "active";}else{echo "";}?>">
+              <a  href="{{ route('backgrounds') }}?backgrounds={{ "active" }}" class="nav-link ">Backgrounds</a>
             </li>
              <li class="text-center  nav-item <?php if(isset(request()->dashboard)){echo "active";}else{echo "";}?>">
               <a  href="{{ route('dashboard') }}?dashboard={{ "active" }}" class="nav-link ">My Dashboard</a>

@@ -4,18 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Models\Product;
+//use App\Models\Product;
 
 class ProjectController extends Controller
 {
     public function index()
     {
-        $products = DB::table('products')->limit(4)->get();
+        //$products = DB::table('products')->limit(4)->get();
 
-        $women_products = Product::where('type', 'women')->limit(4)->get();
-        $men_products = Product::where('type', 'men')->limit(4)->get();
+        // $women_products = Product::where('type', 'women')->limit(4)->get();
+        // $men_products = Product::where('type', 'men')->limit(4)->get();
         
-        return view('index', compact('products', 'women_products', 'men_products'));
+        return view('index');
     }
 
     public function gallery()
@@ -26,11 +26,17 @@ class ProjectController extends Controller
     {
         return  view('contact');
     }
-    public function products()
-    {
-        $products = Product::paginate(6); // paginate(6) -- vratice 6 proizvoda po strani
+    // public function products()
+    // {
+    //     $products = Product::paginate(6); // paginate(6) -- vratice 6 proizvoda po strani
 
-        return  view('products', ['products'=> $products]);
+    //     return  view('products', ['products'=> $products]);
+    // }
+
+    function backgrounds() {
+
+        return view('backgrounds');
+        
     }
 
    

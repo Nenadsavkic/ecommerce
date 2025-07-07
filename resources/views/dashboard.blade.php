@@ -9,7 +9,7 @@
     {{-- Container1  Start --}}
 <div class="container-fluid bg-dark containerDashboard">
     <div class="row">
-        <div class="col-md-2 pl-5 offset-md-5 text-center">
+        <div class="col-md-2 pl-5 offset-md-5 text-center mt-3">
             <h2 class="mt-5 text-white user_name">User name</h2>
             <p class="text-white">Memaber since: </p>
         </div>
