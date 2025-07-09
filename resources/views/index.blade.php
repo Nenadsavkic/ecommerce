@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<div class="container">
+<div class="container"><br>
 <!-- Carousel inner Focus -->
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -43,25 +43,70 @@
 <!-- Carousel Inner End -->
  </div>
 
- <div class="container">
+<div class="container">
+ 
   <br><br>
-  <h1 class="text-center">LOREM IPSUM</h1>
-  <br><br>
-  <p class="text-dark w-75 mx-auto">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut est ac velit rutrum pellentesque nec a leo. Cras vulputate tristique sapien, sit amet hendrerit metus malesuada vel. Nullam bibendum metus at viverra tempor. Sed at dui a ipsum imperdiet tempor. Quisque ut dolor blandit, finibus odio at, eleifend libero. Maecenas placerat lectus quam. Proin lobortis ex ut ex consequat congue.
+  <section class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h1 class="mb-4 text-center">How to Take the Ideal Headshot Photo Before Retouching</h1>
+        <br><br>
+      </div>  
+      <div class="row justify-content-center">
+          <div class="offset-1 col-md-6">      
+            <p>A great headshot starts with a <b>good quality photo.</b> For successful retouching, the initial image should be clear, well-lit, and professional-looking — even if taken at home with a smartphone.</p>
+            <br><br>
+            <img src="/images/homepage_images/selfie10.jpg" class="img-fluid mt-4 rounded" width="200px" alt="">
+            <img src="/images/homepage_images/selfie7.jpg" class="img-fluid mt-4 ms-4 rounded" width="200px" alt="">
+          </div>
+          <div class="col-md-4 offset-1 align-items-end">  
+            <img src="/images/homepage_images/selfie2.jpg" class="img-fluid rounded" width="200px" alt="">    
+          </div>
+      </div>
+        <br>
+      <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <h3 class="mt-4 text-center">1. Proper Lighting</h3><br>
+          </div> 
+          <div class=" col-lg-10">  
+            <p class="text-center">Natural light next to a window is ideal. Avoid direct sunlight and shadows that cover the face. Make sure the eyes are clearly visible and well-lit.</p><br><br>
+          </div>
+          <div class="col-4">  
+            <img src="/images/homepage_images/headshot4.jpg" class="img-fluid rounded" alt=""><br><br>
+          </div>
+      </div>
+        
+      <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <h3 class="mt-4 text-center">2. Background and Contrast</h3>
+            <br><br>
+          </div>
+          <div class="col-lg-10">
+            <p class="text-center">Use a plain background, such as a white wall. It's important to have <b>good contrast</b> between the person and the background, especially if the background will be replaced later. This helps with clean edge masking and hair refinement.</p>
+            <br><br>
+          </div>
+          <div class="col-4">  
+            <img src="/images/homepage_images/headshot2.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-4">  
+            <img src="/images/homepage_images/headshot7.jpg" class="img-fluid rounded" alt="">
+            <br><br>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h3 class="mt-4 text-center">3. Background Replacement</h3><br><br>
+        </div>  
+        <div class="col-lg-10">
+            <p class="text-center">If you'd like a different background, you can choose one from <a href="{{ route('backgrounds') }}?backgrounds={{ "active" }}">our collection</a> or send your preferred one. High contrast between the subject and the background makes it easier to remove and replace it accurately.</p>
+            <br>
+            <p class="text-center"><b>You can see examples of headshot photos with changed backgrounds in the carousel below.</b></p>
+        </div>
+      </div>
+    </div>   
+  </section>
 
-Quisque vitae venenatis mauris, ut pellentesque est. Morbi nec erat a urna malesuada tempor at et ex. Aliquam ut sapien ut arcu posuere efficitur. Vestibulum quam velit, malesuada id iaculis at, fermentum sed justo. Nunc porttitor malesuada ante, eu vulputate urna cursus ut. Morbi odio elit, accumsan sed nunc ac, faucibus rhoncus nunc. Maecenas a elit aliquam, aliquam nibh vitae, faucibus velit. Duis pellentesque euismod sollicitudin. Mauris porta quam ac libero ullamcorper tempus.
-
-Mauris consequat, arcu at accumsan commodo, lacus felis rhoncus augue, ac tristique velit libero vel massa. Donec in faucibus purus. Phasellus tortor quam, eleifend id vehicula eu, viverra sit amet ipsum. Duis sem nulla, bibendum fermentum blandit quis, gravida interdum augue. Etiam nec auctor erat. Nulla cursus mi sed ullamcorper placerat. Aenean gravida, libero ornare lobortis eleifend, nisi nibh semper lectus, nec tempor urna turpis eu dolor. Nulla non tortor feugiat, fringilla lacus eget, fringilla lorem.
-
-Maecenas pretium augue a erat dapibus, in sollicitudin augue finibus. Ut facilisis quis lectus at vestibulum. Duis pretium sollicitudin facilisis. Proin nec congue tortor, sed hendrerit quam. Mauris elementum viverra vulputate. Aenean non elit lectus. Integer sollicitudin ligula dui, sed tincidunt metus lobortis ut. Etiam vel viverra tortor. Donec augue sapien, pulvinar blandit aliquam quis, sagittis ac erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In porttitor metus eu lectus rhoncus, non gravida sem iaculis. Mauris fermentum malesuada eros maximus ultricies. Pellentesque vulputate turpis eget nunc dictum suscipit. Mauris dolor dui, mattis vel rutrum euismod, porta eget leo. Duis dapibus at arcu in ultricies.
-
-Aenean pulvinar lorem metus, id pretium velit accumsan at. Nunc auctor risus non dolor pellentesque, non gravida arcu consectetur. Sed sit amet finibus quam. Duis at elit non magna imperdiet sagittis. Pellentesque et pretium purus, non pharetra nulla. Cras egestas ligula et diam viverra, fringilla efficitur nisl pretium. Nunc auctor risus tincidunt lectus eleifend, viverra vehicula quam accumsan. Etiam id leo ac risus fringilla posuere. Integer sit amet enim nec metus semper mattis sed ac lorem. Mauris faucibus nibh quis vehicula placerat. Nam tincidunt felis varius, commodo diam sit amet, tempor magna. Maecenas id tincidunt ante, at gravida lacus. Sed condimentum libero felis, eget rhoncus ligula elementum quis. Aenean dui metus, hendrerit sed mattis quis, tincidunt sed magna. Nunc ut bibendum leo. Nam tempus dictum tincidunt.
-
-Phasellus consequat velit vel mauris blandit, sit amet fermentum tortor finibus. Suspendisse tincidunt augue nec neque semper hendrerit. Morbi tincidunt congue velit in interdum. Curabitur quis cursus dolor. Nulla ut magna tincidunt, imperdiet arcu at, convallis elit. In sem est, pellentesque ac faucibus hendrerit, lacinia eget nibh. Suspendisse in leo sodales, pellentesque augue non.
-  </p>
-  <br><br>
- </div>
+</div><br><br>
 
 
 
@@ -111,6 +156,64 @@ Phasellus consequat velit vel mauris blandit, sit amet fermentum tortor finibus.
   </div>  
 </div>   
 <br><br>
+<section class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">    
+      <h3 class="mt-4 text-center">4. Clothing and Appearance</h3><br>
+    </div>
+    <div class="col-lg-10">  
+      <p class="text-center">We recommend a professional look – blazer, shirt, or blouse. However, you may opt for a casual outfit as well – it's your choice. Just make sure the clothes are simple, with no text or loud patterns.</p>
+      <br><br>
+      
+    </div>  
+      <div class="col-3">
+        <img src="/images/homepage_images/headshot13.jpg" class="img-fluid rounded" alt="">
+      </div> 
+       <div class="col-3">
+        <img src="/images/homepage_images/headshot11.jpg" class="img-fluid rounded" alt="">
+      </div> 
+      <div class="col-3"> 
+        <img src="/images/homepage_images/headshot10.jpg" class="img-fluid rounded" alt="">
+        <br><br>
+      </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <h3 class="mt-4 text-center">5. How to Take the Photo</h3><br>
+      </div> 
+      <div class="col-lg-10"> 
+        <p class="text-center">You can use a smartphone, a digital camera, or have someone else take the photo for you. A selfie works just fine – modern phones have cameras good enough for headshot photography. Make sure the camera is at eye level, and pose in a natural, confident, and professional way.</p>
+        <br><br>
+      </div>
+      <div class="col-4">
+        <img src="/images/homepage_images/headshot0.jpg" class="img-fluid rounded" alt="">
+      </div> 
+      <div class="col-4"> 
+        <img src="/images/homepage_images/selfie0.jpg" class="img-fluid rounded" alt="">
+        <br><br>
+      </div>
+        
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+         <h3 class="mt-4 text-center">6. Image Quality</h4><br>
+      </div>
+      <div class="col-lg-10 d-flex justify-content-center">
+          <ul class="text-center list-unstyled">
+            <li><b>The image should be sharp, not blurry</b></li>
+            <li><b>No filters or pre-applied effects</b></li>
+            <li><b>High resolution (1000px or more)</b></li>
+            <li><b>Good lighting and contrast</b></li>
+          </ul>
+      </div> 
+    </div>   
+    <div class="row justify-content-center">
+          <div class="col-lg-8">
+             <p class="mt-4 text-center"><b>Follow these guidelines to ensure your photo provides the perfect base for a professionally retouched headshot.</b></p>
+          </div>
+    </div>
+  </div>
+</section>
+
 @endsection
 
 @yield('page-scripts')

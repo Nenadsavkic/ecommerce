@@ -1062,7 +1062,8 @@ div.line-dec{
 .focused-text{
 	color: #fff;
 }
-/* .img-focus{
-	background-color: #fff;
-	transition: 22ms;
-} */
+p{
+	color: #201d1e;
+	
+	font-size: 18px;
+}
