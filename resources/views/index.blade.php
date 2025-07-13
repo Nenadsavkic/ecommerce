@@ -48,6 +48,36 @@
   <br><br>
   <section class="container py-5">
     <div class="row justify-content-center">
+       <div class="col-lg-10">
+        <h1 class="mb-4 text-center">About Focus Headshots</h1>
+        <br><br>
+      </div> 
+    <div class="row justify-content-center">
+          <div class="col-lg-10">
+          </div> 
+          <div class=" col-lg-10">  
+            <p>
+              Welcome to Focus Headshots — your go-to online space for high-quality, professionally retouched headshot photos. 
+              Whether it’s a quick selfie or a photo someone took for you, you don’t need a studio to look like you’ve been in one. 
+              With just one upload, I’ll help you turn an everyday picture into a polished, confident, studio-like portrait — quickly, easily, 
+              and with care. Because making a great first impression shouldn’t be complicated.
+            </p><br><br>
+            <p>
+              The name <b>Focus</b> isn’t just about photography — it’s a life philosophy. Whether it’s your work, 
+              hobbies, family, or moments of rest, staying focused is key to doing things well. And while you focus on 
+              what truly matters in your life, I’ll take care of making your headshot look its very best.
+
+              <b>Focus Headshots</b> was built on the idea that professional results don’t require a professional studio — 
+              just the right attention to detail, care, and precision. My job is to ensure that your portrait reflects 
+              the best version of you — sharp, confident, and ready for whatever comes next.
+
+
+            </p><br><br>
+          </div>
+    </div>
+       
+    </div>
+    <div class="row justify-content-center">
       <div class="col-lg-10">
         <h1 class="mb-4 text-center">How to Take the Ideal Headshot Photo Before Retouching</h1>
         <br><br>

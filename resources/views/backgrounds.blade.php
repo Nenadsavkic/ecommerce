@@ -9,13 +9,15 @@
 
         <div class="row">
             <div class="col-md-8 offset-md-2 mt-5">
-                <h2 class="text-center bold mt-5"><strong>Backgrounds</strong></h2>
-                <p class="text-center mt-5 font mb-5"><strong>
-                Hello, on this page you can see some of my Graphic Design works
-                    in Adobe Illustrator, InDesign and Photoshop. My narrow specialty is editing and retouching
-                    images in Photoshop.<br><br>
-                    <span id="zoom">Click on image to zoom in</span>
-                    </strong></p>
+                <h2 class="text-center bold mt-5"><strong>Choose Your Background</strong></h2>
+                <p class="text-center mt-5 font mb-5">
+                A great background can elevate your headshot to the next level.
+                 Here you’ll find a curated selection of professional backdrops — from clean studio-style settings to 
+                 modern office environments and soft gradients.Whether you're going for a corporate, creative, 
+                 or casual look, simply pick the background that best matches your style — 
+                 or send us your own, and we’ll take care of the rest..<br><br>
+                    <span id="zoom"><b>Click on image to zoom in</b></span>
+                    </p>
             </div>
 
         </div>
