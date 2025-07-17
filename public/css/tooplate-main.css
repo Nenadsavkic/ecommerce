@@ -1064,6 +1064,18 @@ div.line-dec{
 }
 p{
 	color: #201d1e;
-	
 	font-size: 18px;
+}
+.hire-link{
+  color: #fff !important;
+  background-color: #ff6600;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.hire-link:hover{
+	    
+  background-color: #e65c00;
+  color: #fff;
 }

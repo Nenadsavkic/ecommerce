@@ -239,7 +239,14 @@
     <div class="row justify-content-center">
           <div class="col-lg-8">
              <p class="mt-4 text-center"><b>Follow these guidelines to ensure your photo provides the perfect base for a professionally retouched headshot.</b></p>
+             <br><br>
           </div>
+          
+          <div class="text-center mt-4">
+            <a href="https://www.upwork.com/services/product/design-portrait-retouching-for-social-media-1943712358056515823?ref=fl_profile" target="_blank" class="btn btn-success btn-lg px-4">
+          Hire Me on Upwork
+        </a>
+      </div>
     </div>
   </div>
 </section>

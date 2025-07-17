@@ -6,6 +6,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -79,7 +80,14 @@ Route::get('/thank_you', [OrderController::class, 'thankYou'])
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])
 ->name('dashboard');
 
+Route::get('/hire_me', [ProjectController::class, 'hireMe'])
+->name('hireMe');
+
 Route::get('/backgrounds', [ProjectController::class, 'backgrounds'])
 ->name('backgrounds');
+
+Route::post('/contact', [ContactController::class, 'send'])
+->name('contact.send');
+
 
 

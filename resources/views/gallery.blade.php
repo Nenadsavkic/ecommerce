@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    Galery
+    Gallery
 @endsection
 
 @section('content')

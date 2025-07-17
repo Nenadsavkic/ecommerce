@@ -73,14 +73,17 @@
             <li class="text-center  nav-item <?php if(isset(request()->backgrounds)){echo "active";}else{echo "";}?>">
               <a  href="{{ route('backgrounds') }}?backgrounds={{ "active" }}" class="nav-link ">Backgrounds</a>
             </li>
-             <li class="text-center  nav-item <?php if(isset(request()->dashboard)){echo "active";}else{echo "";}?>">
-              <a  href="{{ route('dashboard') }}?dashboard={{ "active" }}" class="nav-link ">My Dashboard</a>
+             <!-- <li class="text-center  nav-item hire <?php if(isset(request()->dashboard)){echo "active";}else{echo "";}?>">
+              <a  href="{{ route('dashboard') }}?dashboard={{ "active" }}" class="nav-link">My Dashboard</a>
+            </li> -->
+             <li class="text-center  nav-item hire <?php if(isset(request()->dashboard)){echo "active";}else{echo "";}?>">
+              <a  href="{{ route('hireMe') }}?hireMe={{ "active" }}" class="nav-link hire-link">Hire Me</a>
             </li>
             <li class="text-center nav-item <?php if(isset(request()->gallery)){echo "active";}else{echo "";}?>">
               <a class="nav-link" href="{{ route('gallery') }}?gallery={{ "active" }}">Gallery</a>
             </li>
             <li class="text-center nav-item <?php if(isset(request()->contact)){echo "active";}else{echo "";}?>">
-              <a class="nav-link" href="{{ route('contact') }}?contact={{ "active" }}">Contact Us</a>
+              <a class="nav-link" href="{{ route('contact') }}?contact={{ "active" }}">Contact Me</a>
             </li>
             <li class="text-center nav-item mt-2 mb-2 <?php if(isset(request()->cart)){echo "active";}else{echo "";}?>">
               <a class="fa show fa-shopping-cart" href="{{ route('cart') }}?cart={{ "active" }}"></a>
